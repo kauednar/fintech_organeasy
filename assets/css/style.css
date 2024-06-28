@@ -11,12 +11,12 @@ body, form, fieldset, main, header {
 }
 
 header {
-    padding: 100px 70px 0 70px;
+    padding: 6.25rem 4.3rem 0 4.3rem;
     font-family: "Josefin Sans", sans-serif;
 }
 
 header img {
-    padding: 0 0 30px 0;
+    padding: 0 0 1.8rem 0;
 }
 
 header p {
@@ -26,12 +26,12 @@ header p {
 header :nth-child(2) {
     color: #04bf45;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 header :nth-child(3) {
-    font-size: 20px;
-    padding-bottom: 17px;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -50,14 +50,14 @@ fieldset a {
 
 #login {
     width: 14.3rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 #btn-change-password {
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
-    padding: 5px 0 20px;
+    padding: 0.3rem 0 1.2rem;
 }
 
 #btn-change-password:hover {
@@ -70,7 +70,7 @@ div button {
 }
 
 div i {
-    padding: 0 7px 0 0;
+    padding: 0 0.4rem 0 0;
 }
 
 #login_alternativo {
@@ -91,6 +91,6 @@ p a:hover {
 }
 
 div p {
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
