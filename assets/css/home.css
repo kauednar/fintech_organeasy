@@ -1,0 +1,164 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+/* Header */
+.header {
+    background: #21BF65;
+    color: #f2f2f2;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 40px 40px;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logotipo {
+    max-width: 150px;
+}
+
+.profile-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile {
+    text-align: right;
+    display: flex;
+    gap: 5px;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Balance Section */
+.balance {
+    margin: 17px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.amount {
+    font-size: 1.5em;
+}
+
+.label {
+    color: #888;
+}
+
+.toggle-visibility {
+    margin-top: 10px;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.entry-expense a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entry-button {
+    margin: 20px;
+}
+
+.entry-expense {
+    width: 100%;
+    padding: 10px;
+    background: #21BF65;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Transactions Section */
+.transactions {
+    padding: 20px;
+    background: #fff;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.transaction .type {
+    font-weight: bold;
+}
+
+.amount-positive {
+    color: #00b894;
+}
+
+.amount-negative {
+    color: #d63031;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .amount {
+        font-size: 1.2em;
+    }
+}

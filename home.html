@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganEasy</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img class="logotipo" src="./assets/images/logotipo2.png" alt="Logotipo OrganEasy">
+            </div>
+            <div class="profile-menu">
+                <div class="profile">
+                    <img src="assets/images/avatar.png" alt="Avatar">
+                    <div>
+                        <span class="username">Kauê Lima</span>
+                        <p>Bem-vindo!</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <img src="assets/images/menu.png" alt="icon-menu">
+                </div>
+            </div>
+        </header>
+
+        <div class="balance">
+            <div>
+                <p class="amount">$ 0.000,00</p>
+                <p class="label">Valor disponível</p>
+            </div>
+            <button class="toggle-visibility">👁️</button>
+        </div>
+
+        <div class="buttons">
+            <button><a href="lacamentos.html">Entradas</a></button>
+            <button><a href="lacamentos.html">Saídas</a></button>
+            <button><a href="objetivos.html">Objetivos</a></button>
+        </div>
+
+        <div class="entry-button">
+            <button class="entry-expense"><a href="lacamentos.html">+ Entrada/Despesa</a></button>
+        </div>
+
+        <section class="transactions">
+            <h2>Últimas transações</h2>
+            <div class="transaction">
+                <p class="type">Entrada</p>
+                <p class="category">Salário</p>
+                <p class="amount-positive">+ R$ 1.000,00</p>
+                <p class="date">09 ABR</p>
+            </div>
+            <div class="transaction">
+                <p class="type">Saída</p>
+                <p class="category">Alimentação</p>
+                <p class="amount-negative">- R$ 150,00</p>
+                <p class="date">04 ABR</p>
+            </div>
+            <div class="transaction">
+                <p class="type">Saída</p>
+                <p class="category">Moradia</p>
+                <p class="amount-negative">- R$ 1.500,00</p>
+                <p class="date">01 ABR</p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

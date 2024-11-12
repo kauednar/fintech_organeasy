@@ -94,3 +94,7 @@ div p {
     font-size: 0.8rem;
 }
 
+button a{
+    text-decoration: none;
+    color: #fff;
+}
